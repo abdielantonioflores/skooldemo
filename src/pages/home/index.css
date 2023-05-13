@@ -1,0 +1,22 @@
+.images-home-list {
+    display: block;
+    height: 253px;
+    width: 324px;
+}
+
+.images-home-list-phone {
+    display: none;
+    width: 320px;
+    height: auto;
+
+}
+
+@media screen and (max-width: 375px) {
+    .images-home-list-phone {
+        display: block;
+    }
+
+    .images-home-list {
+        display: none;
+    }
+}

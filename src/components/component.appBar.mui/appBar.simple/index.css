@@ -1,0 +1,29 @@
+.button-home-appBar{
+    margin-left: 32px;
+    cursor: pointer;
+    color: rgb(32, 33, 36);
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logoTribu{
+    width: 100px;
+}
+
+.box-shadow-none{
+    box-shadow:none !important
+}
+.icon-button-menu-phone{
+    float: right;
+    margin-left: 200px;
+}
+/* @media screen and (min-width: 596px) {
+    .icon-button-menu-phone{
+
+        margin-left: 400px;
+    }
+  } */

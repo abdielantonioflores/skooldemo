@@ -1,0 +1,10 @@
+:root {
+    --backgroundHeroBootrap: #091227d9  ;
+    --white: #ffffff;
+  }
+  .spaceButtonSession{
+    display: "inherit";
+    margin-right: "1px";
+    margin-left: "-5px"
+  
+  }
