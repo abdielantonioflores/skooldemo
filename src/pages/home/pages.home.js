@@ -1,13 +1,13 @@
 import React, { useEffect, useContext } from "react";
 import { styled, createTheme, ThemeProvider } from "@mui/material/styles";
-import AppBarSimple from '../../components/component.appBar.mui/appBar.simple'
+import AppBarSimple from '../../components/comp.appBar.mui/appBar.simple'
 import ThemeApp from "../../themeApp/theme.app.configuration";
-import CardInformation from "../../components/component.card/card.information";
+import CardInformation from "../../components/comp.card/card.information";
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import './index.css'
 import Toolbar from '@mui/material/Toolbar';
-import ActiveLastBreadcrumb from '../../components/component.footers/footer-simple'
+import ActiveLastBreadcrumb from '../../components/comp.footers/footer-simple'
 const mdTheme = createTheme(ThemeApp);
 
 

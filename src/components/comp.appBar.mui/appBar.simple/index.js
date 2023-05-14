@@ -16,7 +16,7 @@ import Button from '@mui/material/Button';
 import './index.css'
 import Container from '@mui/material/Container';
 import { Link } from "react-router-dom";
-import CardInformation from "../../component.card/card.information";
+import CardInformation from "../../comp.card/card.information";
 
 const drawerWidth = 240;
 const navItems = ['Caso de Uso', 'Registro', 'Inicio de session'];

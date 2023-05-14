@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import DisgneSplashScreen from "../../components/component.screen/cpt.display.screen";
+import DisgneSplashScreen from "../../components/comp.screen/cpt.display.screen";
 import { useSelector, useDispatch } from 'react-redux'
 
 function ProvideAuth({ children }) {
-
+    console.log(children)
     const configAuth = useSelector((state) => {
-        // console.log(state )
         return state.configSliceApp
     })
   

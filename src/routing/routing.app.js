@@ -8,7 +8,7 @@ import HomePages from "../pages/home/pages.home";
 import { Provider } from "react-redux";
 import store from '../store'
 import ProviderAuth from '../provider/auth/provider.auth.pages'
-import DisgneSplashScreen from "../components/component.screen/cpt.display.screen";
+import DisgneSplashScreen from "../components/comp.screen/cpt.display.screen";
 import "../assets/css/app.css";
 import "../assets/css/var/variable.css";
 import PagesNotFound from "../pages.not.found"
